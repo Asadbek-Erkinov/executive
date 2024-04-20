@@ -758,3 +758,134 @@ img {
 .dots-list {
   margin-left: auto;
 }
+
+.services-item::before {
+  background-image: url("./images/careerpict.svg");
+  width: 76px;
+  height: 76px;
+  display: inline-block;
+  content:  "";
+}
+
+.admission-item::before {
+  background-image: url("./images/admpict.svg");
+  width: 76px;
+  height: 76px;
+  display: inline-block;
+  content:  "";
+}
+
+.visa-item::before {
+  background-image: url("./images/visaconsulting.svg");
+  width: 76px;
+  height: 76px;
+  display: inline-block;
+  content:  "";
+}
+
+.accomo-item::before {
+  background-image: url("./images/homepict.svg");
+  width: 76px;
+  height: 76px;
+  display: inline-block;
+  content:  "";
+} 
+
+.airplane-item::before {
+  background-image: url("./images/airplane.svg");
+  width: 76px;
+  height: 76px;
+  display: inline-block;
+  content:  "";
+}
+
+.service-link::after {
+  display: inline-block;
+  content: "";
+  width: 24px;
+  height: 24px;
+  background-image: url("./images/heronarrow.svg");
+  background-repeat: no-repeat;
+  background-position: 0 5px;
+  margin-left: 16px;
+}
+
+.news-time::before {
+  background-image: url("./images/timer-picture.svg");
+  display: inline-block;
+  content: "";
+  background-repeat: no-repeat;
+  width: 21px;
+  height: 21px;
+  margin-right: 12px;
+  background-position: 0 2px;
+}
+
+.news-time {
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 18.75px;
+  color: #565656;
+}
+
+.news-title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 25.78px;
+  color: #252525;
+}
+
+.even-item-link::after {
+  display: inline-block;
+  content: "";
+  width: 24px;
+  height: 24px;
+  background-image: url("./images/heronarrow.svg");
+  background-repeat: no-repeat;
+  background-position: 0 2px;
+  margin-left: 16px;
+}
+
+.country {
+  padding-bottom: 124px;
+}
+
+.news-tittle {
+  font-size: 37px;
+  font-weight: 700;
+  line-height: 54px;
+  letter-spacing: -0.4625000059604645px;
+  text-align: center;
+  color: #373737;
+  
+}
+
+.news-text {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 38px;
+  text-align: center;
+  color: #7D7D7D;
+  
+}
+
+.service-textt {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 38px;
+  text-align: center;
+  color: #7D7D7D;
+  
+}
+
+.even-text {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 38px;
+  text-align: center;
+  color: #7D7D7D;
+}
+
+.news-item {
+  border-radius: 11px;
+}
