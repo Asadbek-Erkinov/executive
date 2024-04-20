@@ -889,3 +889,7 @@ img {
 .news-item {
   border-radius: 11px;
 }
+
+.hero-text-wrapper {
+  width: 528px;
+}
